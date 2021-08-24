@@ -1,0 +1,7 @@
+apps:
+  - script   : dataserver.py
+    name     : 'FY4A-Wind'
+    instances: 1
+    exec_mode: fork
+    exec_interpreter: python
+    args: "4500"

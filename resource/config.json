@@ -1,0 +1,21 @@
+{
+    "layername":[200,300,500,700,850,1000],
+    "layerindex":[7,9,13,17,20,25],
+    "Wind": {
+        "u_dataset":"/UGRD",
+        "v_dataset":"/VGRD",
+        "u_10m_dataset": "/u_sigma",
+        "v_10m_dataset": "/v_sigma"
+    },
+    "Temp": "/tlev",
+    "TPW": "/tpwlev",
+    "MSLP": "/pmsl",
+    "inputpath":"/SVDATA/NWP/JSON/",
+    "db":{
+        "dbip":"fy4.sche",
+        "dbname":"fy4",
+        "tablename":"ProductInfo",
+        "user":"fy4",
+        "pwd":"fy4"
+    }
+}
